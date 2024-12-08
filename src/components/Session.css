@@ -1,0 +1,72 @@
+.session {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .session h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .session-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .session-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.2s;
+  }
+  
+  .session-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .session-card h2 {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .session-card p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .session-card p strong {
+    color: #333;
+  }
+  .session-detail {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .enter-session {
+    margin-top: 2rem;
+  }
+  
+  .enter-session-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* For Link styling */
+    cursor: pointer;
+  }
+  
+  .enter-session-button:hover {
+    background-color: #0056b3;
+  }
+  
+  

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: #282c34;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .cta-button, .learn-more-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .learn-more-button {
+    background-color: transparent;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+  }
+  
+  .features, .how-it-works, .testimonials, .footer {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .feature-cards, .steps, .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-links, .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    background-color: #282c34;
+    color: white;
+  }
+  .feature-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .feature-link:hover {
+    text-decoration: underline;
+  }
+  
+  

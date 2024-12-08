@@ -1,0 +1,54 @@
+.speaker-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .speaker-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .speaker-header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .speaker-header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .speaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .speaker-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .speaker-name {
+    font-size: 1.5em;
+    color: #222;
+    margin: 10px 0;
+  }
+  
+  .speaker-title {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .speaker-bio {
+    font-size: 1em;
+    color: #555;
+  }
+  
